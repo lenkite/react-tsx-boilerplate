@@ -1,0 +1,32 @@
+{
+  "name": "react-tsx-boilerplate",
+  "version": "1.0.0",
+  "description": "React TypeScript Boiler Plate",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --hot",
+    "build": "NODE_ENV=production webpack -p --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenkite/react-tsx-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "rxjs",
+    "reactive",
+    "mobx"
+  ],
+  "author": "Tarun Elankath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lenkite/react-tsx-boilerplate/issues"
+  },
+  "homepage": "https://github.com/lenkite/react-tsx-boilerplate#readme",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
